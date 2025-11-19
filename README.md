@@ -38,6 +38,14 @@ Se demuestra el cálculo de integrales indefinidas con la función $f(x) = kx$:
 
 - Integral indefinida usando `sympy.Integral()`
 
+### 5. Cálculo de Integrales Definidas
+
+Se calculan integrales definidas (áreas bajo la curva entre dos límites):
+
+- Integral definida de $x^2$ de 0 a 2
+- Integral definida de $\sin(x)$ de 0 a $\pi$
+- Evaluación usando `sympy.Integral(f, (x, a, b)).doit()`
+
 ## Requisitos
 
 ```python
